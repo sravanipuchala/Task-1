@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Book List</title>
+<!-- <font size="60"><center><b>Project Do-Er</b></center></font><br> -->
+<font size="10"><center>BOOK LIST</center></font>
+<style>
+.form-container{
+    width:250px;
+    height:auto;
+    padding:100px 100px;
+    background-color:#fff;
+    border-radius:10px;
+    margin:auto;
+}
+.list{
+list-style-type:none;
+text-align: center;
+}
+</style>
+</head>
+<body bgcolor="#ccccc">
+    
+   
+<div class="form-container">
+  <ul class="list">	
+    <form action="/booklist" method="post" >
+        
+        <h2>BOOK LIST</h2>
+        <label for="search">Booklist:</label>
+    
+            <input type="text" name="search" required>
+            <br><br>
+    
+            <button type="submit" value="submit" name="submit">Search</button>
+    
+    </form>
+</div>
+
+</body>
+</html>

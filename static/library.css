@@ -1,0 +1,133 @@
+.container1{
+    position:relative;
+    max-width:auto;
+    margin:0 auto;
+}
+.static1{
+  text-align: center;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width:100%;
+}
+.static1 span{
+  text-transform: uppercase;
+  display: block;
+}
+.text1{
+    
+    font-size: 60px;
+    font-weight: 700px;
+    font-style: italic;
+    letter-spacing: 8px;
+    margin-bottom: 200px;
+    position: relative;
+    
+
+}
+.text2{
+    font-size: 30px;
+    color: #6ab04c;
+
+}
+
+/* @keyframes text{
+    0%{
+    color:block;
+    margin-bottom:-40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+} */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  .pic1 {
+    padding-top: 0;
+    padding-left: 50px;
+    width: 10%;
+    
+  
+  }
+  .pic1 :hover {
+    width: 75px;
+    height: 90px;
+    cursor: none;
+    /*box-shadow: 0 0 20px 20px rgb(253, 253, 253);*/
+  }
+  .static {
+   
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    /*justify-content: space-between;*/
+  }
+  header{
+    display: flex;
+    z-index: 100000;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(50, 50, 50, 0.507);
+    
+    font-family:Book Antiqua;
+  }
+  .nav{
+    display: flex;
+   
+    width: 90%;
+    justify-content: space-evenly;
+  
+  }
+  .pic img{
+    width: 100%;
+    
+    left: 0;
+  }
+  .nav a{
+    color:aqua;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-top: 30px;
+}
+  a:hover{
+    color: rgb(255, 255, 254);
+  
+}
+.container
+{
+width:900px;
+top: 1000px;
+position: relative;
+display:flex;
+justify-content:space-between;
+}
+.static1{
+    position: absolute;
+    top:54%;
+    left:49%;
+    transform: translate(-50%,-50%);
+    font-size: 65px;
+    font-weight:bolder;
+    color: white;
+    font-style:inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.t-left{
+    position: absolute;
+    top:500px;
+    left:auto;
+    width: 100%;
+}

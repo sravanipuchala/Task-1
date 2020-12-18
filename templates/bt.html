@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <style>
+            table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-top: 10%;
+            margin-left: auto;
+            margin-right: auto;
+            
+            }
+            th, td {
+            padding: 10px;
+            
+            }
+        </style>
+
+    </head>
+    <body>
+        <table>
+            <thead><tr>
+                <td>ID</td>
+                <td>Bookname</td>
+                <td>ISBNno</td>
+                <td>Department</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for rec in range(0,length) %}
+         <tr>
+            
+             <td>{{result[rec][0]}}</td>
+             <td>{{result[rec][1]}}</td>
+             <td>{{result[rec][2]}}</td>
+             <td>{{result[rec][3]}}</td>
+
+         </tr>
+         {% endfor %}
+        </tbody>
+        </table>
+        <br>
+        
+    </body>
+</html>

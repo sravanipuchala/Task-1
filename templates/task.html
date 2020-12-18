@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale= 1.0">
+    <title>LIBRARY</title>
+    <!-- <link rel="stylesheet" href="task.css"> -->
+</head>
+    
+<header>
+    <center><h1 style="font-size: 50px;">Welcome To Library</h1></center>
+</header>
+
+<center><body>
+    <form action="" method="post" >
+        <h2>BOOK LIST</h2>
+        <label for="search">Booklist:</label>
+    
+            <input type="text" name="search" required>
+            <br><br>
+    
+            <button type="submit" value="submit" name="submit">Search</button>
+    
+    </form>
+    
+
+    <!-- <form action="/addbook" method="POST">
+        <h2> ADD BOOK</h2>
+
+        <div class="hello">
+
+            <label for="name">Bookname:</label>
+            <input type="text" name="name" required>
+            <br><br>
+            <label for="no">ISBNno:</label>
+            <input type="text" name="num" required>
+            <br><br>
+            <label for="dept">Department:</label>
+            <input type="text" name="dept" required>
+            <br><br>
+            <button type="submit" value="add" name="submit">Addbook</button>
+        </div>
+    </form> -->
+    <form action="/delete" method="POST">
+        <h2>DELETE BOOK</h2>
+
+        <div class="main">
+            <label for="no">ISBNno:</label>
+            <input type="text" name="num"required >
+            <br><br>
+            <button type="submit"  value="delete" name="submit">Deletebook</button>
+
+        </div>
+    </form>
+    <form action="/takebook" method="POST">
+        <h2> TAKE BOOK</h2>
+
+        <div class="main1">
+            <label for="stdno">Studentnumber:</label>
+            <input type="text" name="studentnumber" required >
+            <br><br>
+            <label for="stdname">Studentname:</label>
+            <input type="text" name="studentname"required >
+            <br><br><label for="stdno">Bookname:</label>
+            <input type="text" name="name" >
+            <br><br>
+            <label for="stdno">ISBNno:</label>
+            <input type="text" name="num" >
+            <br><br>
+            <label for="stdname">Department:</label>
+            <input type="text" name="dept" required>
+            <br><br>
+            <button type="submit" value="take" name="sub">Takebook</button>
+            
+        </div>
+        </form>
+        <!-- {%if result%}
+        <h1>{{result.bookname}}</h1>
+        <h1>{{result.ISBNno}}</h1>
+        <h1>{{result.dept}}</h1>
+        {%endif%} -->
+</body></center>
+</html>
